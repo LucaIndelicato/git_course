@@ -47,3 +47,6 @@ Suggerimenti:
 
 Usa un'interfaccia grafica come GitKraken o SourceTree per rendere Git più facile da usare.
 Segui i tutorial online per imparare nuove funzionalità di Git.
+
+### visualizzare il grafo della tua repository
+git log --oneline --graph
