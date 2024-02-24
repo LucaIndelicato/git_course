@@ -34,7 +34,7 @@ Clicca su "Crea repository".
 3.2 Associa il tuo repository locale a quello remoto su GitHub:
 
 # Imposta il tuo repository remoto.
-git remote add origin https://github.com/utente/repo.git
+git remote add origin https://github.com/LucaIndelicato/git_course.git
 
 # Push delle modifiche al repository remoto.
 git push origin master
@@ -83,4 +83,4 @@ git merge
  # 2 switcciare sul master 
  git checkout master
  git merge feature1
->>>>>>> feature1
+>>>>>>> featureaggiornaiamo a feature 3
