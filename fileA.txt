@@ -50,3 +50,24 @@ Segui i tutorial online per imparare nuove funzionalità di Git.
 
 ### visualizzare il grafo della tua repository
 git log --oneline --graph
+
+
+# per vedere quali branches sono presenti sulla cartella di proggetto distinguendoli tra local e remote 
+git branch -a
+
+# per creare un branch chiamato feature1
+git branch feature1
+
+#  checkout: aggiorna la head reference (punto attuale di utilizzo del progetto)
+#  e aggiorna il working tree con i file dei commit
+
+#  quindi se voglio switch sul branch appena creato uso, se poi eseguo git branch -a troverò la stessa lista di prima ma con l'asterisco sul branch appena creato (segno che sto lavorando su quel branch)
+git checkout nomebranch 
+
+# per combinare lo step di creazione del branch e lo switch sullo stesso esiste una opzione che fa 2 cose in una linea di comando. L'opzione -b funziona solo se il branch non era già esitente (quindi da errore se il nome del branch utilizzato esiste già). Sposta anche la head nel nuovo branch creato
+git checkout -b feature2
+
+
+#  per cancellare un branch esiste l'opzione -d
+git branch -d feature1
+
